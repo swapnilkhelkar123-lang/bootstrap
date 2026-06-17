@@ -19,6 +19,44 @@
     🍕 Buy 1 Get 1 Free on Medium Pizzas!
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-  
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Order Your Pizza</h2>
+
+    <form>
+        <div class="mb-3">
+            <label class="form-label">Customer Name</label>
+            <input type="text" class="form-control" placeholder="Enter your name">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-control" placeholder="Enter your email">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Pizza Type</label>
+            <select class="form-select">
+                <option>Margherita</option>
+                <option>Farmhouse</option>
+                <option>Pepperoni</option>
+                <option>Veg Supreme</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Quantity</label>
+            <input type="number" class="form-control" min="1" value="1">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Delivery Address</label>
+            <textarea class="form-control" rows="3"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-success">
+            Place Order
+        </button>
+    </form>
+</div>
 </body>
 </html>
